@@ -43,4 +43,9 @@ public class StudentController {
 	public void deleteStudentById(@PathVariable String id) {
 		studentService.deleteStudentById(id);
 	}
+	
+	@RequestMapping("/findmax")
+	public Student maxGpaStudent() {
+		return studentService.findMaxGpa();
+	}
 }

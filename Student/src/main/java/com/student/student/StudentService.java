@@ -71,6 +71,16 @@ public class StudentService {
 		}
 		
 	}
+
+	public Student findMaxGpa() {
+		Student maxGpaStudent = studentList.get(0);
+		for (Student student : studentList) {
+			if (student.getGpa() > maxGpaStudent.getGpa()) {
+				maxGpaStudent = student;
+			}
+		}
+		return maxGpaStudent;
+	}
 	
 	
 }
