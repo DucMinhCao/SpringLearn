@@ -1,51 +1,52 @@
 package com.student.student;
 
 public class Student {
-	private String id;
-	private String name;
-	private double gpa;
+    private String id;
+    private String name;
+    private double gpa;
 
-	public Student() {}
-	
-	public Student(String id) {
-		super();
-		this.id = id;
-	}
+    public Student() {
+    }
 
-	public Student(String id, String name) {
-		super();
-		this.id = id;
-		this.name = name;
-	}
-	
-	public Student(String id, String name, double gpa) {
-		super();
-		this.id = id;
-		this.name = name;
-		this.gpa = gpa;
-	}
+    public Student(String id) {
+        super();
+        this.id = id;
+    }
 
-	public String getId() {
-		return id;
-	}
+    public Student(String id, String name) {
+        super();
+        this.id = id;
+        this.name = name;
+    }
 
-	public void setId(String id) {
-		this.id = id;
-	}
+    public Student(String id, String name, double gpa) {
+        super();
+        this.id = id;
+        this.name = name;
+        this.gpa = gpa;
+    }
 
-	public String getName() {
-		return name;
-	}
+    public String getId() {
+        return id;
+    }
 
-	public void setName(String name) {
-		this.name = name;
-	}
+    public void setId(String id) {
+        this.id = id;
+    }
 
-	public double getGpa() {
-		return gpa;
-	}
+    public String getName() {
+        return name;
+    }
 
-	public void setGpa(double gpa) {
-		this.gpa = gpa;
-	}
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public double getGpa() {
+        return gpa;
+    }
+
+    public void setGpa(double gpa) {
+        this.gpa = gpa;
+    }
 }

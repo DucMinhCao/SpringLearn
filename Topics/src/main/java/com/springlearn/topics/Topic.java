@@ -1,51 +1,52 @@
 package com.springlearn.topics;
 
 public class Topic {
-	private String name;
-	private String id;
-	private String description;
+    private String name;
+    private String id;
+    private String description;
 
-	public Topic() {}
-	
-	public Topic(String name) {
-		super();
-		this.name = name;
-	}
+    public Topic() {
+    }
 
-	public Topic(String name, String id) {
-		super();
-		this.name = name;
-		this.id = id;
-	}
-	
-	public Topic(String name, String id, String description) {
-		super();
-		this.name = name;
-		this.id = id;
-		this.description = description;
-	}
+    public Topic(String name) {
+        super();
+        this.name = name;
+    }
 
-	public String getName() {
-		return name;
-	}
+    public Topic(String name, String id) {
+        super();
+        this.name = name;
+        this.id = id;
+    }
 
-	public void setName(String name) {
-		this.name = name;
-	}
+    public Topic(String name, String id, String description) {
+        super();
+        this.name = name;
+        this.id = id;
+        this.description = description;
+    }
 
-	public String getId() {
-		return id;
-	}
+    public String getName() {
+        return name;
+    }
 
-	public void setId(String id) {
-		this.id = id;
-	}
+    public void setName(String name) {
+        this.name = name;
+    }
 
-	public String getDescription() {
-		return description;
-	}
+    public String getId() {
+        return id;
+    }
 
-	public void setDescription(String description) {
-		this.description = description;
-	}
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
 }
